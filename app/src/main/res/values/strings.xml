@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Ujian QuizApp</string>
+    <string name="question">
+        Dalam tantangan ini, anda harus membaca bilangan bulat dari stdin dan kemduian mencetaknya ke stdout.
+        Setiap bilangan bulat harus dicetak pada baris baru. Untuk membuat masalah sedikit lebih mudah,
+        sebagian kode disediakan untuk anda di editor.
+    </string>
+    <string name="fail">
+        Maaf masih ada error di program yang dikirm
+    </string>
+</resources>

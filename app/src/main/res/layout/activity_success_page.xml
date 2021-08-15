@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SuccessPage"
+    android:layout_margin="30dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="SUCCESS!!"
+        android:textSize="34sp" />
+
+    <ImageView
+        android:id="@+id/image_success"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:background="#00000000"/>
+
+    <Button
+        android:id="@+id/btn_success"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to next Question"
+        android:layout_marginTop="100dp"/>
+</LinearLayout>
